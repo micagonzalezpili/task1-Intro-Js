@@ -1,0 +1,43 @@
+.container-fluid img{
+    width: 8rem;
+}
+.navbar-navme-automb-2mb-lg-0{
+    width: 100vw !important;
+}
+.navbarnavbar-expand-lgd-flexjustify-content-betweencol-12{
+    height: 100% !important;
+    padding: 0;
+}
+.collapsenavbar-collapse{
+    width: 100%;
+}
+.d-blockw-100text-centerbg-secondary-subtle{
+    height: 100vh;
+}
+.carousel-inner{
+    height: 100%;
+}
+
+.redes img{
+    width: 3rem;
+    object-fit: contain;
+}
+header{
+    min-height: 15vh;
+}
+main{
+    min-height: 70vh;
+}
+footer{
+    min-height: 15vh;
+}
+.card img{
+    object-fit: contain;
+}
+
+table, tr, th, td{
+    border: 1px solid black;
+}
+td{
+    width: 20rem;
+}
