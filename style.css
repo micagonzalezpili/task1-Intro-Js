@@ -32,7 +32,9 @@ footer{
     min-height: 15vh;
 }
 .card img{
-    object-fit: contain;
+    object-fit: cover;
+    width: 18rem;
+    height: 15rem;
 }
 
 table, tr, th, td{
@@ -40,4 +42,15 @@ table, tr, th, td{
 }
 td{
     width: 20rem;
+}
+.cardd-flexflex-columnjustify-content-evenly{
+    width: 18rem;
+    height: 25rem;
+}
+.card-img-top{
+    height: 13rem !important;
+}
+.card-body{
+    justify-content: space-evenly;
+    margin-top: 2rem;
 }
