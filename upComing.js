@@ -24,12 +24,12 @@ function filtroEventos(arrayData, currentDate) {
 
 let dateFilter = filtroEventos(data.events, data.currentDate);
 
-function imprimirCard(events, contenedorCardsDos) {
+function imprimirCard(events, contenedorCardsTres) {
     let template = ""
     for (let elemento of events) {
         template += crearCard(elemento)
     }
-    contenedorCardsDos.innerHTML = template    
+    contenedorCardsTres.innerHTML = template    
 }
 
 
