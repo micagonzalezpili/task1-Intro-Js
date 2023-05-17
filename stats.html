@@ -49,7 +49,52 @@
                 </div>                              
             </div>
           <div class="col-12 d-flex flex-wrap text-center justify-content-center align-items-center mt-4">
-            <table class="table-info m-2">
+            <table class="table border border-black" id="tablaUno">
+              <thead>
+                <tr>
+                  <th colspan="6" class="table-dark p-3 fs-5 border-black">Events statistics</th>
+                </tr>
+                <tr class=" border border-black">                 
+                  <th scope="col " class=" border border-black">Events with the highest percentage of attendance</th>
+                  <th scope="col "class=" border border-black">Events with the lowest percentage of attendance</th>
+                  <th scope="col"class=" border border-black">Event with larger capacity</th>
+                </tr>
+              </thead>
+              <tbody id="tbodyUno">
+              </tbody>
+            </table>
+
+            <table class="table" id="tablaDos">
+              <thead>
+                <tr class=" border border-black">
+                  <th colspan="6" class="table-dark p-3 fs-5 border border-blac">Upcoming events statistics by category</th>
+                </tr>
+                <tr class=" border border-black">                 
+                  <th scope="col" class=" border border-black">Categories</th>
+                  <th scope="col" class=" border border-black">Revenues</th>
+                  <th scope="col" class=" border border-black">Percentage of attendance</th>
+                </tr>
+              </thead>
+              <tbody class=" border border-black" id="tablaDos" >
+              </tbody>
+            </table>
+
+            <table class="table  border border-black" id="tablaTres">
+              <thead>
+                <tr>
+                  <th colspan="6" class="table-dark p-3 fs-5   border border-black">Pasts events statistics by category</th>
+                </tr>
+                <tr>                 
+                  <th scope="col"  class=" border border-black">Categories</th>
+                  <th scope="col"  class=" border border-black">Revenues</th>
+                  <th scope="col"  class=" border border-black">Percentage of attendance</th>
+                </tr>
+              </thead>
+              <tbody id="tBodyTres" >
+               
+              </tbody>
+            </table>
+           <!--  <table class="table-info m-2">
                     <thead>
                     <tr >
                         <th rowspan="3" class="p-4">Events statistics</th>
@@ -105,7 +150,7 @@
                     <td> info </td>
                 </tr>                
             </tbody>                
-        </table>
+        </table> -->
       </div>
         </main>
         <footer class="d-flex flex-column justify-content-around mt-3 bg-dark">
@@ -118,5 +163,7 @@
               <h4 class="text-light">Cohort 47 - Micaela Gonzalez Pili</h4>
             </article>
           </footer>
+          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+          <script src="./stats.js"></script>
     </body>
 </html>

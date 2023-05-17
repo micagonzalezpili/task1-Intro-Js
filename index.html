@@ -44,14 +44,14 @@
             <div id="carouselExampleFade" class="carousel slide carousel-fade">
                 <div class="carousel-inner ">
                   <div class="carousel-item active">
-                    <h1 class="d-block w-100 text-center bg-dark text-light ">Home</h1>
+                    <h1 class="d-block p-2 w-100 text-center bg-dark text-light ">Home</h1>
                   </div>          
                 </div>                              
             </div>
             <!-- CHECKBOX -->
-            <div class="d-flex flex-wrap align-items-center justify-content-evenly">
+            <div class="d-flex flex-wrap flex-lg-row flex-column  align-items-center justify-content-evenly" id="contenedor-cbox">
               <form class="d-flex flex-s-column flex-m-row flex-wrap ">
-                <div class="d-flex align-items-center justify-content-center flex-s-column mx-2 ">
+                <!-- <div class="d-flex align-items-center justify-content-center flex-s-column mx-2 ">
                   <input type="checkbox" id="category">
                   <label class="p-2" for="category">Food Fair</label>
                 </div>
@@ -78,21 +78,23 @@
                 <div class="d-flex align-items-center justify-content-center flex-s-column mx-2 ">
                   <input type="checkbox" id="category6">
                   <label class="p-2" for="category6">Let's go to the cinema</label>
-                </div>
+                </div> -->
               </form>
-              <nav class="navbar bg-body-tertiary mt-4 mb-4 d-flex align-items-center justify-content-center">
-                  <div class="container-fluid d-flex align-items-center justify-content-center">
+              </div>
+              <nav class="navbar bg-body-tertiary mt-4 mb-4 d-flex align-items-center justify-content-center" >
+                  <div class="container-fluid d-flex align-items-center justify-content-center" id="buscador">
                     <form class="d-flex" role="search">
-                      <input class="form-control me-2" type="search"  aria-label="Search">
+                      <input class="form-control me-2" type="search"  aria-label="Search" id="searchInput">
                       <button class="btn btn-outline-success" type="submit">Search</button>
                     </form>
                   </div>
                 </nav>
-              </div>
+              
           <!-- CARDS -->
             <div class="d-flex flex-wrap justify-content-center align-content-center gap-3 mt-2 mb-2 col-12  " id="contenedorcards">
             </div>
         </main>
+       
         <footer class="d-flex flex-column justify-content-around mt-3 bg-dark">
           <div class="redes d-flex justify-content-around ">
             <img src="./Recursos Amazing Events/ig logo.png" alt="ig logo">
@@ -105,7 +107,7 @@
         </footer>
         
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>    
-        <script src="./data.js"></script>
+        <!-- <script src="./data.js"></script> -->
         <script src="./inicio.js"></script>
       </body>
 </html>
