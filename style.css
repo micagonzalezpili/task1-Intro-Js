@@ -54,3 +54,9 @@ td{
     justify-content: space-evenly;
     margin-top: 2rem;
 }
+.col-md-4align-self-center{
+    min-width: 27rem ;
+}
+.img-fluidrounded-startms-3 {
+    min-width: 17rem ;
+}
